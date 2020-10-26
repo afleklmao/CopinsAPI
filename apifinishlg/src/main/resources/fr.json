@@ -1,0 +1,39 @@
+{
+  "werewolf": {
+    "role": {
+      "cannibale": {
+        "display": "Cannibale",
+        "description": "§6LOUP-GAROU §7➽ §9Vous êtes §1Cannibale§9.\nVotre objectif est de tuer tout le monde. Pour cela vous obtiendrai 3 pouvoir différents en fonction de vos kill: Force si vous tuer un lg/ résistance si vous tuer un role neutre et speed si vous tuer un villageois"
+      },
+      "spy": {
+        "display": "Spy",
+        "description": "§6LOUP-GAROU §7➽ §9Vous êtes §1Espion§9.\nVotre mission est de débusquer les Loup Garous et les tuer.\n Pour y parvenir nous disposez des infos relatives au infection des Loup Garous.",
+        "is_spy": "[§eLG UHC§r] §4Vous êtes un espion, vous ne pouvez pas avoir la liste des Loups."
+      },
+      "soldat": {
+        "display": "Soldat",
+        "description": "§6LOUP-GAROU §7➽ §2Vous êtes §aSoldat§2.\nVotre objectif est de tuer tous les Loup Garou, pour se faire vous disposez de l'effet §aResistance la nuit, et d'une amélioration d'équipement."
+      },
+      "werewolf_alpha": {
+        "display": "Loup Garou Alpha",
+        "description": "§6LOUP-GAROU §7➽§9 Vous êtes §1Loup Garou Alpha§9. Votre objectif est de tuer les Villageois.\n §ePour ce faire,vous disposez des effets Resistance (la nuit) et Vision Nocturne. Lors de votre mort, le joueurs que vous avez sélectionner via la commande §1§e/ww lga §9rejoindra le camp des loups.\nAprès chaque kill vous gagnez l'effet Vitesse et 2 coeurs d’absorption pendant 2 minutes. \nFaites §b/ww lg§9 pour voir la liste des Loups-Garous.\n",
+        "command": "lga",
+        "perform": "§6LOUP-GAROU §cVotre héritier %s à été désigné.",
+        "power_on": "[§eLG UHC§r] Vous pouvez choisir un héritier avec la commande /ww lga <pseudo>."
+      },
+      "prêtre": {
+        "display": "Prêtre",
+        "description": "§6LOUP-GAROU §7➽§2 Vous êtes §Prêtre§a. Votre objectif est de tuer tous les Loups Garou.\nPour ce faire, vous disposez de 2 potions d'Eau Bénite utilisable la nuit. L'eau Bénite permet d'enlever les pouvoirs donné au membre du Village pendant 1 jour",
+        "power_on": "[§eLG UHC§r]"
+
+      },
+      "werewolf": {
+        "command": "lg"
+      },
+      "new_werewolf": {
+        "display": "Loup Garou",
+        "description": "§6LOUP-GAROU §7➽§9 Vous êtes §1Loup Garou.\nVous est l'heritier du Loup Garou Alpha,Vous êtes donc de la 2eme génération.\n Faite /ww lg pour voir la liste des loups."
+      }
+    }
+  }
+}

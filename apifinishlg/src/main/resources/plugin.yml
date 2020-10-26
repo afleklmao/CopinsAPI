@@ -1,0 +1,5 @@
+name: API
+main: fr.net.Main
+version: 4.0.2
+author: aFlek, NotFire
+depend: [WereWolfPlugin]
